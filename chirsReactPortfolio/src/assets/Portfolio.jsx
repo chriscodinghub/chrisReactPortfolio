@@ -1,10 +1,46 @@
+import convo from './images/convo.png'
+import carPro from './images/carPro.png'
+import chittyChat from './images/chitty-chat.png'
+import weatherForecast from './images/weather-forecast.png'
+import scheduler from './images/scheduler.png'
+import pwGen from './images/pw-gen.png'
+
 const PortfolioSection = () => {
     const projects = [
         {
-            title: 'Project 1',
-            image: 'path_to_project1_image',
-            deployedLink: 'link_to_deployed_project1',
-            githubLink: 'link_to_github_project1'
+            title: 'instant-message',
+            image: convo,
+            deployedLink: 'https://convo-6318dc911188.herokuapp.com/',
+            githubLink: 'https://github.com/chriscodinghub/instant-message'
+        },
+        {
+            title: 'CarPro-Reports',
+            image: carPro,
+            deployedLink: 'https://chriscodinghub.github.io/CarPro-Reports/',
+            githubLink: 'https://github.com/chriscodinghub/CarPro-Reports'
+        },
+        {
+            title: 'chitty-chat backend only',
+            image: chittyChat,
+            githubLink: 'https://github.com/chriscodinghub/chitty-chat'
+        },
+        {
+            title: 'weather-forecast',
+            image: weatherForecast,
+            deployedLink: 'https://chriscodinghub.github.io/weather-forecast/',
+            githubLink: 'https://github.com/chriscodinghub/weather-forecast'
+        },
+        {
+            title: 'work-day-scheduler',
+            image: scheduler,
+            deployedLink: 'https://chriscodinghub.github.io/Work-Day-Scheduler/',
+            githubLink: 'https://github.com/chriscodinghub/Work-Day-Scheduler'
+        },
+        {
+            title: 'pw-generator',
+            image: pwGen,
+            deployedLink: 'https://chriscodinghub.github.io/pw-generator/',
+            githubLink: 'https://github.com/chriscodinghub/pw-generator'
         },
         // Add more project objects for the remaining projects
     ];

@@ -34,6 +34,37 @@ img{
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* spacing between cards */
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-item h3 {
+  margin: 10px 0;
+}
+
+.project-item div {
+  display: flex;
+  justify-content: space-around;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
