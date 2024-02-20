@@ -7,11 +7,43 @@
     flex-direction: column;
     min-height: 100vh;
 }
+
+body {
+  background-color: #708090; /* Light gray color */
+}
+
+.custom-navbar {
+  background-color: #87CEEB; /* Sky blue color */
+}
+
 .footer {
   margin-top: auto;
-  background-color: #333333;
-  color: #ffffff;
+  background-color: #87CEEB;
+  color: black;
   padding: 20px;
+}
+
+.footer-wrapper {
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social-links a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-text {
+  margin-top: 20px; /* Adjust the margin as needed for spacing */
+  text-align: center;
 }
 
 img{
@@ -44,7 +76,9 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #87CEEB;
   padding: 10px;
+  margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -63,6 +97,35 @@ img{
 .project-item div {
   display: flex;
   justify-content: space-around;
+}
+.project-item a {
+  color: darkblue;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#about {
+  background-color: #87CEEB;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#contact {
+  background-color: #87CEEB;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#resume {
+  background-color: #87CEEB;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.resume-content a {
+  color: darkblue;
+  text-decoration: none;
+  margin: 5px;
 }
 
 @keyframes logo-spin {

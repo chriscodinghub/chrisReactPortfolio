@@ -1,3 +1,7 @@
+import React from 'react';
+import Resume from './images/Resume.png'
+
+
 const ResumeSection = () => {
     const developerProficiencies = ['JavaScript', 'React', 'HTML', 'CSS', 'Node.js', 'Express', 'MongoDB'];
 
@@ -6,8 +10,7 @@ const ResumeSection = () => {
             <h2>Resume</h2>
             <div className="resume-content">
                 <p>Download my resume:</p>
-                <a href="path_to_resume_file" download>Download Resume</a>
-
+                <a href= {Resume} download>Download Resume</a>
                 <h3>Proficiencies:</h3>
                 <ul>
                     {developerProficiencies.map((proficiency, index) => (

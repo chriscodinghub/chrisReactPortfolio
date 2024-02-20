@@ -1,12 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import AboutSection from './assets/About'
 import ContactSection from './assets/Contact'
 import PortfolioSection from './assets/Portfolio'
 import ResumeSection from './assets/Resume'
-import Footer from './assets/Footer'
+
 
 
 
@@ -18,7 +16,7 @@ import Footer from './assets/Footer'
 
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
             <div className="container">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

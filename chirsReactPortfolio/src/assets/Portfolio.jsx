@@ -1,6 +1,6 @@
 import convo from './images/convo.png'
 import carPro from './images/carPro.png'
-import chittyChat from './images/chitty-chat.png'
+import chittyChat from './images/cool-french-bulldog.jpg'
 import weatherForecast from './images/weather-forecast.png'
 import scheduler from './images/scheduler.png'
 import pwGen from './images/pw-gen.png'
