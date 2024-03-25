@@ -3,10 +3,16 @@ import carPro from './images/carPro.png'
 import chittyChat from './images/cool-french-bulldog.jpg'
 import weatherForecast from './images/weather-forecast.png'
 import scheduler from './images/scheduler.png'
-import pwGen from './images/pw-gen.png'
+import fluffers from './images/fluffers.png'
 
 const PortfolioSection = () => {
     const projects = [
+        {
+            title: 'Roles and Render',
+            image: fluffers,
+            deployedLink: 'https://dd-char-gen-8x1b.onrender.com',
+            githubLink: 'https://github.com/chriscodinghub/dd-char-gen'
+        },
         {
             title: 'instant-message',
             image: convo,
@@ -35,12 +41,6 @@ const PortfolioSection = () => {
             image: scheduler,
             deployedLink: 'https://chriscodinghub.github.io/Work-Day-Scheduler/',
             githubLink: 'https://github.com/chriscodinghub/Work-Day-Scheduler'
-        },
-        {
-            title: 'pw-generator',
-            image: pwGen,
-            deployedLink: 'https://chriscodinghub.github.io/pw-generator/',
-            githubLink: 'https://github.com/chriscodinghub/pw-generator'
         },
         // Add more project objects for the remaining projects
     ];
