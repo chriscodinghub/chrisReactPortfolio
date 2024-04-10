@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from './images/Resume.png'
+import Resume from './images/resume.png'
 
 
 const ResumeSection = () => {
