@@ -11,36 +11,43 @@ const PortfolioSection = () => {
             title: 'Roles and Render',
             image: fluffers,
             deployedLink: 'https://dd-char-gen-8x1b.onrender.com',
-            githubLink: 'https://github.com/chriscodinghub/dd-char-gen'
+            githubLink: 'https://github.com/chriscodinghub/dd-char-gen',
+            readmeLink: 'https://github.com/chriscodinghub/dd-char-gen/blob/main/README.md'
         },
         {
             title: 'instant-message',
             image: convo,
             deployedLink: 'https://convo-6318dc911188.herokuapp.com/',
-            githubLink: 'https://github.com/chriscodinghub/instant-message'
+            githubLink: 'https://github.com/chriscodinghub/instant-message',
+            readmeLink: 'https://github.com/chriscodinghub/instant-message/blob/main/README.md'
+            
         },
         {
             title: 'CarPro-Reports',
             image: carPro,
             deployedLink: 'https://chriscodinghub.github.io/CarPro-Reports/',
-            githubLink: 'https://github.com/chriscodinghub/CarPro-Reports'
+            githubLink: 'https://github.com/chriscodinghub/CarPro-Reports',
+            readmeLink: 'https://github.com/chriscodinghub/CarPro-Reports/blob/main/README.md'
         },
         {
             title: 'chitty-chat backend only',
             image: chittyChat,
-            githubLink: 'https://github.com/chriscodinghub/chitty-chat'
+            githubLink: 'https://github.com/chriscodinghub/chitty-chat',
+            readmeLink: 'https://github.com/chriscodinghub/chitty-chat/blob/main/README.md'
         },
         {
             title: 'weather-forecast',
             image: weatherForecast,
             deployedLink: 'https://chriscodinghub.github.io/weather-forecast/',
-            githubLink: 'https://github.com/chriscodinghub/weather-forecast'
+            githubLink: 'https://github.com/chriscodinghub/weather-forecast',
+            readmeLink: 'https://github.com/chriscodinghub/weather-forecast/blob/main/README.md'
         },
         {
             title: 'work-day-scheduler',
             image: scheduler,
             deployedLink: 'https://chriscodinghub.github.io/Work-Day-Scheduler/',
-            githubLink: 'https://github.com/chriscodinghub/Work-Day-Scheduler'
+            githubLink: 'https://github.com/chriscodinghub/Work-Day-Scheduler',
+            readmeLink: 'https://github.com/chriscodinghub/Work-Day-Scheduler/blob/main/README.md'
         },
         // Add more project objects for the remaining projects
     ];
@@ -56,6 +63,7 @@ const PortfolioSection = () => {
                         <div>
                             <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">Deployed App</a>
                             <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                            <a href={project.readmeLink} target="_blank" rel="noopener noreferrer">Readme file</a>
                         </div>
                     </div>
                 ))}
